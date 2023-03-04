@@ -8,3 +8,20 @@ body,html{
   overflow: hidden;
   font-family: 'Lucida Sans', sans-serif;
 }
+
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.title{
+  color: blueviolet;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%,-25%);
+}

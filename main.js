@@ -1,5 +1,5 @@
 import './style.css';
-import * as THREE from 'three';
+import * as THREE from "https://criticaugen.github.io/project6_three.js_1/node_modules/three";
 import {OrbitControls} from "three/examples/jsm/controls/OrbitControls"
 import gsap from 'gsap'
 

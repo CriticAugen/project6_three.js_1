@@ -50,6 +50,7 @@ controls.autoRotateSpeed = 5
 //Resize
 window.addEventListener('resize',()=> {
   //update sizes
+  console.log(window.innerHeight,window.innerWidth)
   sizes.width = window.innerWidth
   sizes.height = window.innerHeight
   //update camera
